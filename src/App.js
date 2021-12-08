@@ -8,8 +8,10 @@ function App() {
   return (
     <div className="App">
       <FirstName.Provider value={"Tawfiq E "}>
-      <CompA></CompA>
       </FirstName.Provider>
+
+
+      <CompA></CompA>
     </div>
   );
 }

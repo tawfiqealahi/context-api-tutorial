@@ -13,7 +13,7 @@ const CompC = () => {
                     }}
                 </FirstName.Consumer>
             </h1>
-            compC 
+            
         </div>
     );
 };

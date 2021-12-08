@@ -1,10 +1,20 @@
 import React from 'react';
-import CompC from './CompC';
+import { MyHome } from './CompA';
 
 const CompB = () => {
     return (
         <div>
-            <CompC></CompC>
+            <MyHome.Consumer>
+                {(newHome)=>{
+                return(
+                   
+                    <h1>
+                    this is my {newHome}
+                    </h1>
+                   
+                    )
+            }}
+            </MyHome.Consumer>
         </div>
     );
 };
