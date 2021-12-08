@@ -9,7 +9,7 @@ const CompB = () => {
                 return(
                    
                     <h1>
-                    this is the place where I live in  { newHome}
+                     I live in  { newHome}
                     </h1>
                    
                     )
