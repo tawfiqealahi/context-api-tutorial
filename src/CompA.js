@@ -1,9 +1,10 @@
 import React from 'react';
+import CompB from './CompB';
 
 const CompA = () => {
     return (
         <div>
-            context api
+            <CompB></CompB>
         </div>
     );
 };
