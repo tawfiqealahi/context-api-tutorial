@@ -7,8 +7,9 @@ const firstName = createContext();
 function App() {
   return (
     <div className="App">
-      <firstName></firstName>
+      <firstName.Provider>
       <CompA></CompA>
+      </firstName.Provider>
     </div>
   );
 }
