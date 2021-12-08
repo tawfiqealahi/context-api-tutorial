@@ -7,7 +7,7 @@ const FirstName = createContext();
 function App() {
   return (
     <div className="App">
-      <FirstName.Provider value={"Tawfiq E "}>
+      <FirstName.Provider value={"Tawfiq E Alahi"}>
       </FirstName.Provider>
 
 
