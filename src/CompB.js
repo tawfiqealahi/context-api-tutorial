@@ -9,7 +9,7 @@ const CompB = () => {
                 return(
                    
                     <h1>
-                    this is my {newHome}
+                    this{newHome}
                     </h1>
                    
                     )
