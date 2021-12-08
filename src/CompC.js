@@ -8,7 +8,7 @@ const CompC = () => {
                 <FirstName.Consumer>
                     {(fname)=>{
                         return(
-                        <h1>this is first context {fname} </h1>
+                        <h1> first context {fname} </h1>
                         )
                     }}
                 </FirstName.Consumer>
